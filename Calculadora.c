@@ -7,6 +7,27 @@
 
 #include <stdio.h> //se introduce la biblioteca que se va a utilizar
 
+
+
+int main(){
+    int num1,num2,suma,resta,multiplicacion; //se inicializa las variables int
+    float division; //se inicializa la variable float
+
+    //llamadas a las funciones, se ejecutan en orden
+    leerNumero(&num1);
+    leerNumero(&num2);
+    sumar(num1,num2,&suma);
+    escribirResultado(num1,num2,'+',suma); //se escribe el resultado de la suma
+    restar(num1,num2,&resta);
+    escribirResultado(num1,num2,'-',resta); //se escribe el resultado de la resta
+    multiplicar(num1,num2,&multiplicacion);
+    escribirResultado(num1,num2,'*',multiplicacion);//se escribe el resultado de la multiplicacion
+    dividir(num1,num2,&division);
+    escribirResultado(num1,num2,'/',division); //se escribe el resultado de la division
+
+    return 0;
+}
+
 //esta función se encarga de leer el numero introducido por teclado
 void leerNumero(int *num){
     printf("Escribe un numero: ");
@@ -36,23 +57,4 @@ void multiplicar(int num1,int num2,int *multiplicacion){
 //esta funcion realiza la division
 void dividir(int num1,int num2,float *division){
     *division = (float)num1 / (float)num2; //se realiza la division
-}
-
-int main(){
-    int num1,num2,suma,resta,multiplicacion; //se inicializa las variables int
-    float division; //se inicializa la variable float
-
-    //llamadas a las funciones, se ejecutan en orden
-    leerNumero(&num1);
-    leerNumero(&num2);
-    sumar(num1,num2,&suma);
-    escribirResultado(num1,num2,'+',suma); //se escribe el resultado de la suma
-    restar(num1,num2,&resta);
-    escribirResultado(num1,num2,'-',resta); //se escribe el resultado de la resta
-    multiplicar(num1,num2,&multiplicacion);
-    escribirResultado(num1,num2,'*',multiplicacion);//se escribe el resultado de la multiplicacion
-    dividir(num1,num2,&division);
-    escribirResultado(num1,num2,'/',division); //se escribe el resultado de la division
-
-    return 0;
 }
