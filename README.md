@@ -1,2 +1,2 @@
 # Programacion
-Config files for my GitHub profile.
+Practicas de programación
