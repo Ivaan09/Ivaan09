@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Ivaan09
+- 👋 Hi, I’m Norvy
 - 👀 I’m interested in progamming
 - 🌱 I’m currently learning informatic
 - 💞️ I’m looking to collaborate on ...
