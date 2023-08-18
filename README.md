@@ -1,2 +1,2 @@
 # Programacion
-Practicas de Programación
+Practicas de programación
