@@ -1,2 +1,2 @@
 # Programacion
-Practicas de programación
+Practicas de programación en C
