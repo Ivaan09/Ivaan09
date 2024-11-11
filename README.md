@@ -1,2 +1,2 @@
 ## PROGRAMACIÓN
-Practices of the Programming subject at the UBU
+Practices of the Programming subject at UBU
