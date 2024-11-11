@@ -1,2 +1,1 @@
-# Programacion
-Practicas de programación en C
+Practices of the Programming subject at the UBU
