@@ -1,3 +1,3 @@
 ## PROGRAMACIÓN
 Practices of the Programming subject at UBU
-Note: 7
+Final grade: 7 out 10
